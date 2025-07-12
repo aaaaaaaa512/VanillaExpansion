@@ -1,17 +1,17 @@
-package example;
+package VanillaExpansion;
 
 import arc.*;
 import arc.util.*;
-import mindustry.*;
-import mindustry.content.*;
 import mindustry.game.EventType.*;
-import mindustry.gen.*;
 import mindustry.mod.*;
+import mindustry.mod.Mod;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class VanillaExpansionMod extends Mod {
 
-    public ExampleJavaMod(){
+    public static final String modName = "VanillaExpansion";
+
+    public VanillaExpansionMod(){
         Log.info("Loaded ExampleJavaMod constructor.");
 
         //listen for game load event
