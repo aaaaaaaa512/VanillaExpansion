@@ -33,4 +33,12 @@ public class VanillaExpansionMod extends Mod {
         Log.info("Loading some example content.");
     }
 
+    public static String name(String name) {
+        return modName + name;
+    }
+
+    @Override
+    public void init() {
+        super.init();
+    }
 }

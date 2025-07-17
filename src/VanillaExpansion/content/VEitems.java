@@ -1,12 +1,11 @@
 package VanillaExpansion.content;
 
-import arc.graphics.Color;
 import mindustry.type.Item;
 
-public class VEitem {
+public class VEitems {
     public static Item overchargedAlloy;
 
-    public VEitem() {
+    public VEitems() {
     }
 
     public static void load() {
