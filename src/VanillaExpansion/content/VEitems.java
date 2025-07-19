@@ -11,8 +11,11 @@ public class VEitems {
     public static void load() {
         overchargedAlloy = new Item("overchargedAlloy") {
             {
-                this.cost = 5.0F;
-                this.charge = 2.0F;
+                cost = 1.6f;
+                charge = 2.0f;
+                radioactivity = 0.4f;
+                explosiveness = 0.2f;
+                //color = "#CBCEFF"
             }
         };
     }
